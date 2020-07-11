@@ -11,6 +11,11 @@ import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 Vue.use(ElementUI);
 
+// 使用axios-mockjs
+import "./mock";
+import http from "@/api/config";
+Vue.prototype.$http = http;
+
 Vue.config.productionTip = false;
 
 new Vue({

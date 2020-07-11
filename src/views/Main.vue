@@ -12,9 +12,9 @@
 </template>
 
 <script>
-import CommonHeader from "../components/CommonHeader";
-import CommonAside from "../components/CommonAside";
-import CommonTab from "../components/CommonTab";
+import CommonHeader from "../components/Layouts/CommonHeader";
+import CommonAside from "../components/Layouts/CommonAside";
+import CommonTab from "../components/Layouts/CommonTab";
 export default {
   components: {
     CommonHeader,
