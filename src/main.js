@@ -6,6 +6,11 @@ import store from "./store";
 // 全局配置
 import "@/assets/scss/reset.scss";
 
+// 完整引入ElementUI
+import ElementUI from "element-ui";
+import "element-ui/lib/theme-chalk/index.css";
+Vue.use(ElementUI);
+
 Vue.config.productionTip = false;
 
 new Vue({
