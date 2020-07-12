@@ -65,7 +65,7 @@
 </template>
 
 <script>
-import Echart from "../../components/EChart";
+import Echart from "../../components/EChart/EChart";
 export default {
   // 注册Echart
   components: {
